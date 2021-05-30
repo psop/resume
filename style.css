@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Roboto:wght@100;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --line: black;
+    --english-red: #A00404;
+    --dark-bg: #415165;
+    --white: white;
+    --light-blue: #96A9C4;
+}
+
+body {
+    margin: 0;
+    margin-bottom: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main {
+    font-size: 80px;
+    font-weight: 400;
+    
+}
+
+.main img {
+    margin: 48px 0;
+}
+
+.secondary {
+    margin-bottom: 72px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.title p{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 12px;
+    font-size: 32px;
+    font-family: 'Nato Sans TC', sans-serif;
+    font-weight: 400;
+}
+
+.title span {
+    padding-left: 10px;
+    padding-bottom: 12px;
+    font-size: 24px;
+    color: var(--english-red);
+    text-transform: uppercase;
+}
+
+.dark-bg {
+    margin: 0;
+    padding-top: 24px;
+    padding-bottom: 36px;
+    background-color: var(--dark-bg);
+    color: var(--white);
+    font-weight: 100;
+}
+
+.dark-bg-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dark-bg span {
+    color: var(--white);
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.dark-bg hr {
+    width: 996px;
+}
+
+.middle {
+    padding-left: 24px;
+    margin-bottom: 36px;
+    border-left: 1px solid var(--light-blue);
+}
+
+.detail {
+    padding-left: 24px;
+    border-left: 1px solid var(--light-blue);
+}
+
+.ways {
+    text-align: center;
+}
+
+.sns {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.sns-icon {
+    margin-right: 24px;
+}
+
+/* for extra margin or padding */
+.mt3 {
+    margin-top: 72px
+}
+
+.mb {
+    margin-bottom: 16px;
+}
