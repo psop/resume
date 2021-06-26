@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Roboto:wght@100;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+:root {
+    --basic: black;
+    --highlight: #A00404;
+    --primary: #415165;
+    --dark-bg-white: white;
+    --light-blue: #96A9C4;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container p {
+    margin-top: 24px;
+}
+
+.small-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 80px;
+    border-bottom: 1px solid var(--basic);
+    line-height: 80px;
+}
+
+.photo {
+    width: 324px;
+    height: 324px;
+}
+
+h2 {
+    font-size: 32px;
+    font-family: 'Noto Sans TC', sans-serif;
+    border-bottom: 1px solid var(--basic);
+    padding-bottom: 10px;
+}
+
+h2 span {
+    font-size: 24px;
+    color: var(--highlight);
+    text-transform: uppercase;
+}
+
+.dark-bg {
+    background-color: var(--primary);
+    color: var(--dark-bg-white);
+}
+
+.dark-bg h2 {
+    border-bottom: 1px solid var(--dark-bg-white);
+    text-align: center;
+}
+
+.dark-bg span {
+    color: var(--dark-bg-white);
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    font-weight: 200;
+} 
+
+.skill p {
+    margin-top: 20px;
+}
+
+.middle {
+    padding-left: 24px;
+    border-left: 1px solid var(--light-blue);
+}
+
+.container ul li {
+    margin-top: 24px;
+}
+
+.dark-bg ul li {
+    margin-top: 16px;
+    text-align: center;
+    font-weight: 200;
+}
+
+.dark-bg ul li a {
+    color: var(--dark-bg-white);
+    text-decoration: none;
+}
+
+/* margin & padding */
+.mt-6 {
+    margin-top: 48px;
+}
+
+.mt-8 {
+    margin-top: 64px;
+}
+
+.mb-1 {
+    margin-bottom: 8px;
+}
+
+.mb-6 {
+    margin-bottom: 48px;
+}
+
+.mb-9 {
+    margin-bottom: 72px;
+}
+
+.ml-2 {
+    margin-left: 16px;
+}
+
+.pt-3 {
+    padding-top: 24px;
+}
+
+.pt-9 {
+    padding-top: 72px;
+}
+
+.pb-4_5 {
+    padding-bottom: 36px;
+}
